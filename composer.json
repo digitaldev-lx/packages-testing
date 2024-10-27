@@ -6,7 +6,6 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "digitaldev-lx/log-hole": "dev-main",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "ext-redis": "*"
@@ -67,15 +66,7 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./log-hole",
-            "options": {
-                "symlink": true
-            }
-        }
-    ]
+    "minimum-stability": "stable",
+    "prefer-stable": true
+
 }
